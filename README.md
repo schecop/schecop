@@ -6,11 +6,6 @@ Mathematician from Barcelona who likes building things that think. I'm heading t
 
 ## 🚧 Building now
 
-### 📈 Market Desk
-An AI research desk for public companies, over chat and voice. It answers with citations, grounded in verified facts and SEC filings. A hand-written tool-use agent on the Claude API, hybrid RAG with measured evals, an MCP server, a React + TypeScript dashboard and an AWS deployment with Terraform, built in public sprint by sprint.
-
-[Repository](https://github.com/schecop/market-desk) · [Roadmap](https://github.com/schecop/market-desk#roadmap) · [Learning journal](https://schecop.github.io/market-desk/)
-
 ### 🔥 NNN: 4 projects in 4 weeks (November 2026)
 A challenge with myself: one working proof of concept per week, each one pushing a skill I haven't mastered yet.
 
@@ -20,6 +15,11 @@ A challenge with myself: one working proof of concept per week, each one pushing
 | 2 | Clinic front desk + patient simulator | Evals at scale: simulated patients, LLM-as-judge, CI that fails on regressions | 🚧 In progress |
 | 3 | Public-tender scout | An end-to-end agent product | ⏳ |
 | 4 | Rodalies Radar | Node/TS, observability, debugging live with real users | ⏳ |
+
+### 📈 Market Desk ⏸️ *paused for NNN, back in December*
+An AI research desk for public companies, over chat and voice. It answers with citations, grounded in verified facts and SEC filings. A hand-written tool-use agent on the Claude API, hybrid RAG with measured evals, an MCP server, a React + TypeScript dashboard and an AWS deployment with Terraform, built in public sprint by sprint. The capstone that brings the NNN projects together.
+
+[Repository](https://github.com/schecop/market-desk) · [Roadmap](https://github.com/schecop/market-desk#roadmap) · [Learning journal](https://schecop.github.io/market-desk/)
 
 ---
 
