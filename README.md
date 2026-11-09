@@ -16,8 +16,8 @@ A challenge with myself: one working proof of concept per week, each one pushing
 
 | Week | Project | What it pushes | Status |
 |---|---|---|---|
-| 1 | Delta-neutral multi-venue engine | Real-time market data; an LLM as read-only supervisor | 🚧 In progress |
-| 2 | Clinic front desk + patient simulator | Agent loops and evals | ⏳ Up next |
+| 1 | [Delta-neutral engine](https://github.com/schecop/delta-neutral-engine) | Venue APIs and real-time data; a read-only LLM supervisor with evals | ✅ Done |
+| 2 | Clinic front desk + patient simulator | Evals at scale: simulated patients, LLM-as-judge, CI that fails on regressions | 🚧 In progress |
 | 3 | Public-tender scout | An end-to-end agent product | ⏳ |
 | 4 | Rodalies Radar | Node/TS, observability, debugging live with real users | ⏳ |
 
@@ -29,6 +29,7 @@ A challenge with myself: one working proof of concept per week, each one pushing
 | Project | Description | Stack |
 |---|---|---|
 | [market-desk](https://github.com/schecop/market-desk) | AI research desk for public companies (see above) | Python, FastAPI, PostgreSQL, Claude API |
+| [delta-neutral-engine](https://github.com/schecop/delta-neutral-engine) | Hedged execution across perpetual-futures venues: one adapter interface with a conformance suite (a third venue added with only an adapter and config), a deterministic core, and a read-only supervisor agent on Telegram. Its figures are graded by code: 98% on a 19-question eval set, p95 2.1 s, model chosen by comparing three on quality, latency and cost. *One-week build, dry-run.* | Python, asyncio, WebSockets, SQLite, Langfuse, LLM-agnostic client |
 
 ### 🧠 Machine Learning
 | Project | Description | Stack |
